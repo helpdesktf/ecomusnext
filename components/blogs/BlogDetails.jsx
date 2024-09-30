@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function BlogDetails({ blog }) {
   return (
-    <>
+    <> 
       <div className="blog-detail">
         <div className="container">
           <div className="row">

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Orders() {
   return (
     <div className="my-account-content account-order">
@@ -21,12 +21,12 @@ export default function Orders() {
               <td>On hold</td>
               <td>$200.0 for 1 items</td>
               <td>
-                <a
-                  href="#"
+                <Link
+                  href={`/my-account-orders-details`}
                   className="tf-btn btn-fill animate-hover-btn rounded-0 justify-content-center"
                 >
                   <span>View</span>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="tf-order-item">
@@ -35,12 +35,12 @@ export default function Orders() {
               <td>On hold</td>
               <td>$300.0 for 1 items</td>
               <td>
-                <a
-                  href="#"
+                <Link
+                  href={`/my-account-orders-details`}
                   className="tf-btn btn-fill animate-hover-btn rounded-0 justify-content-center"
                 >
                   <span>View</span>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="tf-order-item">
@@ -49,12 +49,12 @@ export default function Orders() {
               <td>On hold</td>
               <td>$400.0 for 1 items</td>
               <td>
-                <a
-                  href="#"
+                <Link
+                  href={`/my-account-orders-details`}
                   className="tf-btn btn-fill animate-hover-btn rounded-0 justify-content-center"
                 >
                   <span>View</span>
-                </a>
+                </Link>
               </td>
             </tr>
           </tbody>

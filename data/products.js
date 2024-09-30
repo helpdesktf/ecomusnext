@@ -4385,6 +4385,7 @@ export const lookbookProducts = [
     price: 112.0,
     width: "98",
     height: "70",
+    isLookBookProduct: true,
   },
   {
     id: 272,
@@ -4394,6 +4395,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "98",
     height: "70",
+    isLookBookProduct: true,
   },
   {
     id: 273,
@@ -4403,6 +4405,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "98",
     height: "70",
+    isLookBookProduct: true,
   },
   {
     id: 274,
@@ -4412,6 +4415,7 @@ export const lookbookProducts = [
     price: 41.0,
     width: "137",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 275,
@@ -4421,6 +4425,7 @@ export const lookbookProducts = [
     price: 48.0,
     width: "137",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 276,
@@ -4430,6 +4435,7 @@ export const lookbookProducts = [
     price: 56.0,
     width: "137",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 277,
@@ -4439,6 +4445,7 @@ export const lookbookProducts = [
     price: 982.0,
     width: "944",
     height: "676",
+    isLookBookProduct: true,
   },
   {
     id: 278,
@@ -4448,6 +4455,7 @@ export const lookbookProducts = [
     price: 982.0,
     width: "944",
     height: "676",
+    isLookBookProduct: true,
   },
   {
     id: 279,
@@ -4457,6 +4465,7 @@ export const lookbookProducts = [
     price: 6500.0,
     width: "944",
     height: "676",
+    isLookBookProduct: true,
   },
   {
     id: 280,
@@ -4466,6 +4475,7 @@ export const lookbookProducts = [
     price: 1366.0,
     width: "944",
     height: "676",
+    isLookBookProduct: true,
   },
   {
     id: 281,
@@ -4475,6 +4485,7 @@ export const lookbookProducts = [
     price: 130.0,
     width: "360",
     height: "360",
+    isLookBookProduct: true,
   },
   {
     id: 282,
@@ -4484,6 +4495,7 @@ export const lookbookProducts = [
     price: 99.0,
     width: "360",
     height: "360",
+    isLookBookProduct: true,
   },
   {
     id: 283,
@@ -4493,6 +4505,7 @@ export const lookbookProducts = [
     price: 48.0,
     width: "360",
     height: "360",
+    isLookBookProduct: true,
   },
   {
     id: 284,
@@ -4502,6 +4515,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "167",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 285,
@@ -4511,6 +4525,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "127",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 286,
@@ -4520,6 +4535,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "111",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 287,
@@ -4529,6 +4545,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 288,
@@ -4538,6 +4555,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 289,
@@ -4547,6 +4565,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "111",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 290,
@@ -4556,6 +4575,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 291,
@@ -4565,6 +4585,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 292,
@@ -4574,6 +4595,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "111",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 293,
@@ -4583,6 +4605,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 294,
@@ -4592,6 +4615,7 @@ export const lookbookProducts = [
     price: 20.0,
     width: "168",
     height: "120",
+    isLookBookProduct: true,
   },
   {
     id: 311,
@@ -4601,6 +4625,7 @@ export const lookbookProducts = [
     height: 668,
     title: "Alice Mini - Dusty Rose",
     price: 130.0,
+    isLookBookProduct: true,
   },
   {
     id: 312,
@@ -4610,6 +4635,7 @@ export const lookbookProducts = [
     height: 668,
     title: "Amanda - Green",
     price: 138.0,
+    isLookBookProduct: true,
   },
   {
     id: 313,
@@ -4619,6 +4645,7 @@ export const lookbookProducts = [
     height: 668,
     title: "Grace - Brown",
     price: 138.0,
+    isLookBookProduct: true,
   },
   {
     id: 314,
@@ -4628,6 +4655,7 @@ export const lookbookProducts = [
     height: 180,
     title: "REGULAR FIT WINDBREAKER",
     price: 130.0,
+    isLookBookProduct: true,
   },
   {
     id: 315,
@@ -4637,6 +4665,7 @@ export const lookbookProducts = [
     height: 120,
     title: "POLAR NIGHT PACK 2 FUSION 2.0",
     price: 99.0,
+    isLookBookProduct: true,
   },
 ];
 

@@ -6,8 +6,13 @@ import Link from "next/link";
 import { useContextElement } from "@/context/Context";
 export default function ProductCard21({ product }) {
   const [currentImage, setCurrentImage] = useState(product.imgSrc);
-  const { setQuickViewItem, quickAddItem, addToWishlist, isAddedtoWishlist,isAddedtoCompareItem } =
-    useContextElement();
+  const {
+    setQuickViewItem,
+    quickAddItem,
+    addToWishlist,
+    isAddedtoWishlist,
+    isAddedtoCompareItem,
+  } = useContextElement();
   useEffect(() => {
     setCurrentImage(product.imgSrc);
   }, [product]);

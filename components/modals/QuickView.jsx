@@ -65,8 +65,12 @@ export default function QuickView() {
                   className="swiper tf-single-slide"
                 >
                   {[
-                    quickViewItem.imgSrc,
-                    quickViewItem.imgHoverSrc
+                    quickViewItem.isLookBookProduct
+                      ? "/images/products/orange-1.jpg"
+                      : quickViewItem.imgSrc,
+                    quickViewItem.isLookBookProduct
+                      ? "/images/products/pink-1.jpg"
+                      : quickViewItem.imgHoverSrc
                       ? quickViewItem.imgHoverSrc
                       : quickViewItem.imgSrc,
                   ].map((product, index) => (
@@ -124,7 +128,7 @@ export default function QuickView() {
                     <div className="variant-picker-label">
                       Color:
                       <span className="fw-6 variant-picker-label-value">
-                        Orange
+                        {currentColor.value}
                       </span>
                     </div>
                     <form className="variant-picker-values">
